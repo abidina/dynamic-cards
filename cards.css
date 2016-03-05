@@ -1,0 +1,26 @@
+.cards {
+  padding: auto;
+  border: black 2px dotted;
+  box-shadow: 2px 2px 5px black;
+  width: 25%;
+  height: 30%;
+  background-color: lightblue;
+  font-family: sans-serif;
+  display: inline-block;
+  margin: 3%;
+}
+
+.cards:nth-child(2n) {
+  background-color: lavender;
+  box-shadow: 2px 2px 5px darkgray;
+  border: gray 2px dashed;
+}
+
+h3 {
+  text-align: center;
+}
+
+article > p > button {
+  margin: 0 15%;
+  width: 70%;
+}
